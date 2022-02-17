@@ -191,19 +191,26 @@ address {
 }
 /* ========= End Hero ========= */
 
-/* ========= Start section about ========= */
+/* ========= Start section text elements ========= */
+.section-about-text-element {
+  color: var(--primary-section-color);
+  padding-bottom: 45px;
+}
 .section-about-text-content {
   display: flex;
   justify-content: space-between;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 94px;
 }
 .section-about-list {
   flex-basis: calc(100%-120px)/4;
   margin-left: 30px;
   margin-top: 30px;
 }
+/* ========= End section text elements ========= */
+
+/* ========= Start section about ========= */
+
 .about-image {
   display: flex;
   justify-content: space-between;
@@ -212,7 +219,9 @@ address {
 }
 .section-about {
   color: var(--primary-section-color);
+  padding-top: 45px;
 }
+
 .section-about-photo-list {
   flex-basis: calc(100% - 90px)/3;
   margin-left: 30px;
@@ -383,7 +392,6 @@ address {
 }
 .footer-contact-list:last-child {
   margin-bottom: 0px;
-  margin-top: 0px;
 }
 .footer-contact-mail {
   display: block;
