@@ -194,7 +194,7 @@ address {
 /* ========= Start section text elements ========= */
 .section-about-text-element {
   color: var(--primary-section-color);
-  padding-bottom: 45px;
+  padding-bottom: 47px;
 }
 .section-about-text-content {
   display: flex;
@@ -219,7 +219,7 @@ address {
 }
 .section-about {
   color: var(--primary-section-color);
-  padding-top: 45px;
+  padding-top: 47px;
 }
 
 .section-about-photo-list {
